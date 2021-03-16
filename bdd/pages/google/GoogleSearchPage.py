@@ -10,7 +10,6 @@ class GoogleSearchPage(Base):
         self.context.browser.get(url)
 
     def search_word(self, word):
-        # self.context.google_search_page_source = self.context.browser.page
         self.context.does_the_word_exist_on_the_google_search_page = True if word in self.context.browser.page_source \
             else False
         return self.context.does_the_word_exist_on_the_google_search_page
