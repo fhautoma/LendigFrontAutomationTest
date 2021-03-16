@@ -7,3 +7,5 @@ def use_chrome_browser(context, **kwargs):
     context.browser.maximize_window()
 
 
+def close_browser(context):
+    context.browser.quit()
