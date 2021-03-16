@@ -705,3 +705,7 @@
 /web.config.txt
 .idea/
 __pycache__/
+.env
+.venv
+env/
+venv/
