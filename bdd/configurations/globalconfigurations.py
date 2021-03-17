@@ -1,4 +1,2 @@
-from pathlib import Path
-project_path = Path(__file__).parent.parent
-
+# Config Values for use in all the system
 
